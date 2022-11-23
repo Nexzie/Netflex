@@ -1,0 +1,226 @@
+*, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+    font-family: serif;
+    font-size: 16px;
+    height: 45px;
+    display: block;
+    max-width: 1920px;
+    padding-top: 20px;
+    position: relative;
+    right: 0px;
+    width: 708px;
+    z-index: 10;
+    color: rgb(224, 18, 18);
+    letter-spacing: 2px;
+    overflow: hidden;
+    animation: expand 3s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  
+}
+
+img {
+  width: 100%;
+}
+
+/* Header styling
+================================== */
+header {
+  background: transparent;
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+}
+
+header .header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.hero-section {
+  background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.829), rgba(13, 13, 13, 0.582), rgba(0, 0, 0, 0.706)), url('/imgs/netflixlarge.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-section .content {
+  width: 50%;
+  color: #fff;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+}
+
+.form-control {
+  margin-top: 1rem;
+}
+
+.input-control {
+  /* background: red; */
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.input-control input {
+  width: 80%;
+  padding: 0.6rem 1rem;
+  border: none;
+  outline: none;
+  color: #333;
+}
+
+.input-control .hero-btn {
+  background: red;
+  color: #fff;
+  white-space: nowrap;
+  padding: 0.6rem 2rem;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.hero-btn p {
+  margin-right: 1rem;
+}
+
+.tv-section {
+  background-color: #000;
+  border-top: solid 5px #333;
+}
+
+.tv-section .container {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.tv-section .content {
+  color: #fff;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.section-img {
+  width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  .input-control {
+    flex-direction: column;
+  }
+
+
+  .hero-section .content {
+    width: 80%;
+    color: #fff;
+  }
+
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .input-control input {
+    width: 100%;
+  }
+
+  .input-control .hero-btn {
+    padding: 0.6rem 1rem;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+.mobile-section {
+    background-color: #000;
+    border-top: solid 5px #333;
+}
+
+.mobile-section .container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 2rem 0;
+  }
+
+.mobile-section .content {
+    color: #fff;
+  }
+
+.blank-section {
+    background-color: #000;
+    border-top: solid 5px #333;
+}
+
+.blank-section .container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 2rem 0;
+  }
+
+  .blank-section .content {
+    color: #fff;
+  }
+
+.kids-section {
+    background-color: #000;
+    border-top: solid 5px #333;
+}
+
+.kids-section .container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 2rem 0;
+  }
+
+.kids-section .content {
+    color: #fff;
+  }
+
+.faq-section {
+    background-color: #000;
+    border-top: solid 5px #333;
+}
+
+.faq-section .container {
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding: 2rem 0;
+}
+
+.faq-section .content {
+    color: #fff;
+  }
